@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Player2DController: MonoBehaviour
 {
     /* 
-        Use this script on a the parent object of the u.i of your player
+        Use this script on the parent object of the u.i of your player
     */
     
     // UI
@@ -151,7 +151,7 @@ public class Player2DController: MonoBehaviour
     {
         MovePlayer();
         /*
-            ~ Use 'UpdateUI' for updating the direction of player in the gam
+            ~ Use 'UpdateUI' for updating the direction of player in the game
             it depends on your input if it's a negative direction the player
             will rotate 180°, for positive direction 0°
         */ 
